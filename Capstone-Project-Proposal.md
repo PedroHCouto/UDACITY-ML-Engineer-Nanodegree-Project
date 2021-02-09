@@ -9,26 +9,26 @@ Based on this lack of convergence about which method should be used, and once th
 
 Metrics like opening and closing prices, max price in the day and moving average are common data collected for every company present in a market. This types of analysis, the basic knowledge of the market and these metrics, provide a strong foundation to start the project.  
 
-**2. Problem Statement:**
+**2. Problem Statement:**  
 Knowing that predict stock prices is a so challenging topic, that the prize is great and that there are lots of data available, the problem to be solved is **to create a pipeline with SageMaker that ingest data and return a forecast for the next 2 and 4 weeks to be used to guide the decisions of buying or selling stocks.**  
 
-**3. The Datasets and Input:s**
+**3. The Datasets and Inputs:**      
 The data will be gathered using the Bloomberg APIs and the Yahoo! Finance API.
 Since it is the Machine Learning Engineer Nanodegree, I intend to follow the whole SageMaker workflow. It means the data will be collected and transformed into one unique CSV file that can be uploaded to S3 and then, the data can be used as input for training with the SageMaker API.  
 
-**4. Solution Statement:**
+**4. Solution Statement:**     
 The solution is to test two algorithms used for forecasting:
     a. The DeepAR, created by Amazon and available in the Estimator API;
     b. Create my on Neural Network using LTSM (Long Short Term Memory) method.
 Having these two method we can compare both and use the best one to deploy the solution.  
 
-**5. Benchmark Model:**
+**5. Benchmark Model:**     
 As benchmark will be used the notebook (https://www.kaggle.com/faressayah/stock-market-analysis-prediction-using-lstm) by Fares Sayha and the notebook (https://www.kaggle.com/nageshsingh/stock-market-forecasting-arima) by Nagesh Singh Chauhan, both found on Kaggle.  
 
-**6. Evaluation Metrics:**
+**6. Evaluation Metrics:**     
 Because this type of forecasting works with continuous output that can be a big range of values, the metrics used in the project will be **MSE (mean square error)**, **RMSE (root mean square error)** and if needed **MAE (mean absolute error).**
 
-**7. Project Design:**
+**7. Project Design:**     
 The steps the project will follow are:
     a. Gathering the Data;
     b. Cleaning and Exploring the Data;
