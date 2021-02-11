@@ -73,11 +73,11 @@ i. Deploy the best one.
 Since this is the capstone project for Machine Learning Engineer Nano degree, all work will be done using AWS and will focus more on working with SageMaker whether to build extremely great models.
 
 
-**REFERENCES:**
+**REFERENCES:**  
 [1] https://en.wikipedia.org/wiki/Fundamental_analysis#The_two_analytical_models  
 [2] https://en.wikipedia.org/wiki/Technical_analysis  
 [3] https://www.thebalance.com/brazil-and-commodities-808912  
-[4] https://www.nasdaq.com/articles/3-reasons-why-commodities-etfs-may-rally- in-2021-2021-01-15  
+[4] https://www.nasdaq.com/articles/3-reasons-why-commodities-etfs-may-rally-in-2021-2021-01-15  
 [5] https://www.reuters.com/article/column-russell-commodities-yearahead-idUSL1N2IQ0A2    
 [6] https://plusmining.com/en/commodities-rally-is-projected-to-2021-the-coronavirus-would-mark-a-milestone-in-the-cycle-potentially-leaving-years-of-weak-prices-behind/  
 [7] https://www.fxempire.com/forecasts/article/speculators-bet-on-a-continued-commodity-rally-in-2021-690009  
