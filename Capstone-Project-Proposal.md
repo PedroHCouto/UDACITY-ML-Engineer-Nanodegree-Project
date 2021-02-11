@@ -21,7 +21,7 @@ As mention above, our interest lay on the future share price of commodity-based 
 **Based on this, we can define that our problem is to analyse the 5 biggest commodity-based companies in Brazil in order to understand their behaviour and relationships as well to get a deeper understanding about what we are going to predict. Then, an algorithm as well its pipeline will be designed and implemented in order to predict the prices for the future.**  
 
 
-**3. The Datasets and Input:s**
+**3. The Datasets and Inputs:**
 The data will be gathered using the Yahoo! Finance API. A great tutorial (unfortunately only in Portuguese) can be found in this [medium post](https://medium.com/@rodrigobercinimartins/como-extrair-dados-da-bovespa-sem-gastar-nada-com-python-14a03454a720). The library yahooquery gives us all tools to colect the data as we want.  
 
 We will gather data of the 5 biggest commodity-based companies in Brazil, that are:
@@ -74,10 +74,10 @@ Since this is the capstone project for Machine Learning Engineer Nano degree, al
 
 
 **REFERENCES:**
-[1] https://en.wikipedia.org/wiki/Fundamental_analysis#The_two_analytical_models
-[2] https://en.wikipedia.org/wiki/Technical_analysis
-[3] https://www.thebalance.com/brazil-and-commodities-808912
-[4] https://www.nasdaq.com/articles/3-reasons-why-commodities-etfs-may-rally- in-2021-2021-01-15
-[5] https://www.reuters.com/article/column-russell-commodities-yearahead- idUSL1N2IQ0A2
-[6] https://plusmining.com/en/commodities-rally-is-projected-to-2021-the-coronavirus-would-mark-a-milestone-in-the-cycle-potentially-leaving-years-of-weak-prices-behind/
-[7] https://www.fxempire.com/forecasts/article/speculators-bet-on-a-continued-commodity-rally-in-2021-690009
+[1] https://en.wikipedia.org/wiki/Fundamental_analysis#The_two_analytical_models  
+[2] https://en.wikipedia.org/wiki/Technical_analysis  
+[3] https://www.thebalance.com/brazil-and-commodities-808912  
+[4] https://www.nasdaq.com/articles/3-reasons-why-commodities-etfs-may-rally- in-2021-2021-01-15  
+[5] https://www.reuters.com/article/column-russell-commodities-yearahead-idUSL1N2IQ0A2    
+[6] https://plusmining.com/en/commodities-rally-is-projected-to-2021-the-coronavirus-would-mark-a-milestone-in-the-cycle-potentially-leaving-years-of-weak-prices-behind/  
+[7] https://www.fxempire.com/forecasts/article/speculators-bet-on-a-continued-commodity-rally-in-2021-690009  
