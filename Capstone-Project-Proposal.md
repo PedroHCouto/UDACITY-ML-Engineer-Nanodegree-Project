@@ -3,7 +3,7 @@
 ## Capstone Proposal: Stock Price Forecasting using SageMaker
 
 
-**1. Domain Background:**  
+### 1. Domain Background:  
 The stock price market might seems chaotic at a first glance. There is a lot of information that must be taken into account in order to decide whether to buy or not a stock. Some say that the Fundamental Analysis [1] is the right way to decide whether or not to buy a stock, and some say that the Technical Analysis [2].
 
 Based on this lack of convergence about which method should be used, and once that we can find a giant amount of data, a data science project could be a nice fit to predict the behaviour of the prices in the next day. Therefore we could use these predictions to guide the decisions.
@@ -16,12 +16,12 @@ Besides that, nowadays there are lots of discussions about a commodity rally in 
 So let’s dive in the Brazilian Stock Prices of commodity-based companies, explore them and predict its prices! 
 
 
-**2. Problem Statement:**
+### 2. Problem Statement:  
 As mention above, our interest lay on the future share price of commodity-based companies. It gets even more dramatic with 2021 bringing the potential for a commodity rally. To predict those stock prices are a big prize.
 **Based on this, we can define that our problem is to analyse the 5 biggest commodity-based companies in Brazil in order to understand their behaviour and relationships as well to get a deeper understanding about what we are going to predict. Then, an algorithm as well its pipeline will be designed and implemented in order to predict the prices for the future.**  
 
 
-**3. The Datasets and Inputs:**
+### 3. The Datasets and Inputs:  
 The data will be gathered using the Yahoo! Finance API. A great tutorial (unfortunately only in Portuguese) can be found in this [medium post](https://medium.com/@rodrigobercinimartins/como-extrair-dados-da-bovespa-sem-gastar-nada-com-python-14a03454a720). The library yahooquery gives us all tools to colect the data as we want.  
 
 We will gather data of the 5 biggest commodity-based companies in Brazil, that are:
@@ -38,21 +38,21 @@ Since the last truly commodity rally was in 2008 and these companies had their m
 For training data it will be used all data available until December 2020. For testing data, it will be used the all the data from 2021, it means January and a part of February.
 
 
-**4. Solution Statement:**     
+### 4. Solution Statement:        
 The solution is to test two algorithms used for forecasting:
     a. The DeepAR, created by Amazon and available in the Estimator API;
     b. Create my on Neural Network using LTSM (Long Short Term Memory) method.
 Having these two method we can compare both and use the best one to deploy the solution.  
 
 
-**5. Benchmark Model:**
+### 5. Benchmark Model:  
 Since it is a personal project the benchmark can be established from a simple model or even a statistical model. For this case, I will use Random Forest as a regression algorithm to fit the data and to make predictions for the next days.
 Using such a simple algorithm as a baseline is a good fit, we have a simple way to create a reference and if the DeepAR and my own model don’t perform better than a simple model, they should be put away or at least to suffer major changes.  
 
-**6. Evaluation Metrics:**     
+### 6. Evaluation Metrics:       
 Because this type of forecasting works with continuous output that can be a big range of values, the metrics used in the project will be **MSE (mean square error)**, **RMSE (root mean square error)** and if needed **MAE (mean absolute error).**
 
-**7. Project Design:**     
+### 7. Project Design:     
 The steps the project will follow are:
 a. Gathering the Data using yahoo API;
 b. Cleaning and Exploring the Data;
@@ -73,7 +73,7 @@ i. Deploy the best one.
 Since this is the capstone project for Machine Learning Engineer Nano degree, all work will be done using AWS and will focus more on working with SageMaker whether to build extremely great models.
 
 
-**REFERENCES:**  
+### REFERENCES:    
 [1] https://en.wikipedia.org/wiki/Fundamental_analysis#The_two_analytical_models  
 [2] https://en.wikipedia.org/wiki/Technical_analysis  
 [3] https://www.thebalance.com/brazil-and-commodities-808912  
