@@ -4,7 +4,7 @@
 ### Using AWS DeepAR and LSTM on SageMaker
 ___
 
-### 1. Domain Background:  
+### 1. Background and Motivation:  
 The stock price market might seems chaotic at a first glance. There is a lot of information that must be taken into account in order to decide whether to buy or not a stock. Some say that the Fundamental Analysis [1] is the right way to decide whether or not to buy a stock, and some say that the Technical Analysis [2].
 
 Based on this lack of convergence about which method should be used, and once that we can find a giant amount of data, a data science project could be a nice fit to predict the behaviour of the prices in the next day. Therefore we could use these predictions to guide the decisions.
