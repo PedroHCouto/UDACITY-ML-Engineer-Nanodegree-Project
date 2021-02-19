@@ -1,7 +1,8 @@
 # Machine Learning Engineer Nanodegree
 
-## Capstone Proposal: Stock Price Forecasting using SageMaker
-
+## Capstone Proposal: Stock Price Forecasting of brazilian commodity-based companies
+### Using AWS DeepAR and LSTM on SageMaker
+___
 
 ### 1. Domain Background:  
 The stock price market might seems chaotic at a first glance. There is a lot of information that must be taken into account in order to decide whether to buy or not a stock. Some say that the Fundamental Analysis [1] is the right way to decide whether or not to buy a stock, and some say that the Technical Analysis [2].
